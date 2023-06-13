@@ -1,6 +1,6 @@
 # Coding Prompts
 
-##Generate code:
+## Generate code:
 
 1. Create a [language] script to parse [file format] and extract [information] with the following requirements: [requirements list].
 2. Develop a [language] microservice for [domain] that includes endpoints for [operations list] and adheres to [design pattern].
@@ -43,7 +43,7 @@
 4. Create an API reference for the given [language] library or framework: [code snippet].
 5. Produce a tutorial for using the following [language] API with example code: [code snippet].
 
-##Query optimization:
+## Query optimization:
 1. Optimize the following GraphQL query for better performance: [GraphQL query].
 2. Analyze the given SQL query for proper indexing: [SQL query].
 3. Suggest improvements to the following database schema for better query performance: [schema description].
