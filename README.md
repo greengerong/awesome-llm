@@ -26,4 +26,4 @@ Feel free to contribute more high-quality AI prompt phrases.
 ## Reference
 
 * [Learn Prompting](https://learnprompting.org/zh-Hans/docs/intro)
-* [wesome-chatgpt-prompts]([https://learnprompting.org/zh-Hans/docs/intro](https://github.com/f/awesome-chatgpt-prompts))
+* [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
