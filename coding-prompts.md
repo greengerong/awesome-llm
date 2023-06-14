@@ -143,3 +143,7 @@ DevOps and deployment:
 3. Design a monitoring and alerting strategy for a [web/mobile] app deployed on [cloud or platform].
 4. Create a Dockerfile or containerization strategy for a [language or technology] application.
 5. Propose a scaling strategy for a [web/mobile] app to handle [large-scale traffic or high-throughput] on [cloud or platform].
+
+## SVG
+1. I would like you to act as an SVG designer. I will ask you to create images, and you will come up with SVG code for the image。 so no text. My first request is:  loading image
+2. I would like you to act as an SVG designer. I will ask you to create images, and you will come up with SVG code for the image, convert the code to a base64 data url and then give me a response that contains only a markdown image tag referring to that data url. Do not put the markdown inside a code block. Send only the markdown, so no text. My first request is: give me an image of a loading.
