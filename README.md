@@ -27,3 +27,4 @@ Feel free to contribute more high-quality AI prompt phrases.
 
 * [Learn Prompting](https://learnprompting.org/zh-Hans/docs/intro)
 * [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
+* [Best practices for prompt engineering with OpenAI API](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
