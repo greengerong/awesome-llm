@@ -1,7 +1,5 @@
 # Prompts
 
-## Brief introduction
-
 This repo aims to collect awesome prompt sentences.
 
 
@@ -14,12 +12,12 @@ Feel free to contribute more high-quality AI prompt phrases.
 
 ## Develop
  
- * [mastering-programming.md](./mastering-programming.md)
- * [coding-prompts.md](./coding-prompts.md)
+ * [mastering-programming.md](./prompts/mastering-programming.md)
+ * [coding-prompts.md](./prompts/coding-prompts.md)
 
 ## Excel
 
- * [excel.md](./excel.md)
+ * [excel.md](./prompts/excel.md)
 
 
 
