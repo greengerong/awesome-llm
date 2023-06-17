@@ -28,3 +28,6 @@ Feel free to contribute more high-quality AI prompt phrases.
 * [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering#books)
 * [Best practices for prompt engineering with OpenAI API](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
 * [aishort](https://www.aishort.top/)
+
+## Model
+* [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
