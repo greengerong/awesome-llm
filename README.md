@@ -20,7 +20,8 @@ LLM awesome sample and prompts.
     conda activate langchain
 
     # langchain, openai
-    conda install langchain -c conda-forge
-    conda install  openai 
+    pip install openai
+    pip install langchain
+    pip install --upgrade tiktoken
 
 ```
