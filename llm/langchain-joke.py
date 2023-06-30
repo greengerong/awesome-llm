@@ -1,6 +1,15 @@
 import os
-from langchain.llm import OpenAI
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import (
+    AIMessage,
+    HumanMessage,
+    SystemMessage
+)
 
-llm = OpenAI(model_name="gpt-3.5-turbo", n=2, temperature=0.5, max_token=1024)
-output = llm("Tell me a joke. Less than 100 words.")
-print(output)
+chat = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.5)
+prompt = "Tell me a joke. Less than 100 words. Response in Chinese."
+print(prompt)
+
+result = chat.predict_messages([HumanMessage(content=prompt)])
+print(result)
+
