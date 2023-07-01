@@ -31,5 +31,5 @@
 ## reference
 
 
-* [https://github.com/facebookresearch/audiocraft](facebookresearch/audiocraft)
-* [https://mp.weixin.qq.com/s/A_M4WQFOrEyq2v_COqPnYw](AI音乐MusicGen)
+* [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft)
+* [AI音乐MusicGen](https://mp.weixin.qq.com/s/A_M4WQFOrEyq2v_COqPnYw)
