@@ -5,9 +5,9 @@ LLM awesome sample and prompts.
 
 ## Outline
 
-* [Prompts](./prompts/README.md)
-* [llm - OpenAi](./llm/README.md)
-* [music gen AI](./music-gen/README.md)
-* [ChatGLM-6B](./ChatGLM-6B/README.md)
-* [whisper](./whisper/README.md)
+* [Prompts](./prompts)
+* [llm - OpenAi](./llm)
+* [music gen AI](./music-gen)
+* [ChatGLM-6B](./ChatGLM-6B)
+* [whisper](./whisper)
 * [colab example](./colab)
