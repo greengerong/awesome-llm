@@ -10,3 +10,4 @@ LLM awesome sample and prompts.
 * [music gen AI](./music-gen/README.md)
 * [ChatGLM-6B](./ChatGLM-6B/README.md)
 * [whisper](./whisper/README.md)
+* [colab example](./colab)
