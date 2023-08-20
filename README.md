@@ -19,3 +19,5 @@ LLM awesome sample and prompts.
 * [Llama2 70B Chatbot](https://huggingface.co/spaces/ysharma/Explore_llamav2_with_TGI)
 * [通义千问-7B（Qwen-7B）](https://modelscope.cn/studios/qwen/Qwen-7B-Chat-Demo/summary/)
 * [WizardMath-70B-V1.0](http://47.103.63.15:50083/)
+* [AI音乐](https://www.suno.ai/)
+* [Online stable-diffusion](https://clipdrop.co/stable-diffusion)
