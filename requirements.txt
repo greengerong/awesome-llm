@@ -1,2 +1,4 @@
 langchain
 openai
+claude-api
+fastapi
