@@ -3,6 +3,7 @@ from langchain.schema import AIMessage, HumanMessage, SystemMessage
 from langchain.chat_models import ChatOpenAI
 
 # uvicorn llm.openai-api:app --reload
+# http://127.0.0.1:8000/chat/openai?prompt=中国首都在哪
 
 app = FastAPI()
 

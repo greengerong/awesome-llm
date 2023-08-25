@@ -26,6 +26,7 @@ from langchain.schema.messages import (
 from fastapi import FastAPI, Query
 
 # uvicorn llm.claude-api:app --reload
+# http://127.0.0.1:8000/chat/claude?prompt=中国首都在哪
 
 app = FastAPI()
 
