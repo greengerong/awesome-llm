@@ -22,4 +22,4 @@ LLM awesome sample and prompts.
 * [WizardMath-70B-V1.0](http://47.103.63.15:50083/)
 * [AI音乐](https://www.suno.ai/)
 * [Online stable-diffusion](https://clipdrop.co/stable-diffusion)
-
+* [证件照 FaceChain](https://huggingface.co/spaces/modelscope/FaceChain)
