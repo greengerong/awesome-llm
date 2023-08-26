@@ -5,6 +5,7 @@ cookie = os.environ.get('CLAUDE_COOKIE')
 claude_api = Client(cookie)
 
 conversation_id = claude_api.create_new_chat()['uuid']
+print(conversation_id)
 
 
 def chat(prompt):
