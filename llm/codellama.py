@@ -3,14 +3,15 @@ import transformers
 import torch
 
 # model = "codellama/CodeLlama-34b-hf"
-model_name = "/mnt/d/llm-models/CodeLlama-34b-hf"
+# model_name = "/mnt/d/llm-models/CodeLlama-34b-hf"
+model_name = "/mnt/d/llm-models/CodeLlama-7b-hf"
 
 def call_by_automodel(prompt):
     device = "cuda" # for GPU usage or "cpu" for CPU usage
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(
         model_name, 
-        load_in_8bit=True
+        # load_in_8bit=True
         )
 
     inputs = tokenizer.encode(prompt, return_tensors="pt").to(device)
@@ -39,7 +40,7 @@ def call_by_pipeline(prompt):
         top_p=0.95,
         num_return_sequences=1,
         eos_token_id=tokenizer.eos_token_id,
-        max_length=200,
+        max_length=512,
     )
 
     for seq in sequences:
@@ -48,10 +49,11 @@ def call_by_pipeline(prompt):
 
 def main():
    # prompt = 'import socket\n\ndef ping_exponential_backoff(host: str):'
-    prompt = 'public class QuickSort {'
+    # prompt = 'public class QuickSort {'
+    prompt = '用java实现快速排序'
     print("Ask: " + prompt)
-    call_by_automodel(prompt)
-    # call_by_pipeline(prompt)
+    # call_by_automodel(prompt)
+    call_by_pipeline(prompt)
 
 if __name__ == "__main__":
     main()
