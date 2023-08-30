@@ -21,8 +21,9 @@ LLM awesome sample and prompts.
 * [通义千问-多模态 Qwen-VL-Chat](https://modelscope.cn/studios/qwen/Qwen-VL-Chat-Demo/summary)
 * [WizardMath-70B-V1.0](http://47.103.63.15:50083/)
 * [AI音乐](https://www.suno.ai/)
-* [Online stable-diffusion](https://clipdrop.co/stable-diffusion)
+* [Online stable-diffusion(AI绘图)](https://clipdrop.co/stable-diffusion)
 * [证件照 FaceChain](https://huggingface.co/spaces/modelscope/FaceChain)
 * [codellama/CodeLlama-34b-Instruct-hf](https://labs.perplexity.ai/?utm_content=first_codellama&s=u&utm_source=twitter&utm_campaign=labs)
 * [WizardCoder-Python-34B-V1.0(from codellama)](http://47.103.63.15:50085/)
+* [Fooocus(AI绘图)](https://colab.research.google.com/drive/1Kops8cmwAXBLpU2WyKTIjbo_wnyNGC6q)
 
