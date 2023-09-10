@@ -14,4 +14,4 @@ def chat(prompt):
     return response
     
 if __name__ == '__main__':
-    chat('帮我根据颜色  # 389e0d 生成一组颜色，只返回 json')
+    chat('帮我根据颜色  # 389e0d 生成一组颜色，只返回 json数据格式')

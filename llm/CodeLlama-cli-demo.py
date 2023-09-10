@@ -50,7 +50,7 @@ def call_by_pipeline(prompt):
 def main():
    # prompt = 'import socket\n\ndef ping_exponential_backoff(host: str):'
     # prompt = 'public class QuickSort {'
-    prompt = '用java实现快速排序'
+    prompt = '用java实现快速排序算法'
     print("Ask: " + prompt)
     # call_by_automodel(prompt)
     call_by_pipeline(prompt)

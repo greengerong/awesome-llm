@@ -12,7 +12,7 @@ def ask(prompt: str = Query(..., max_length=40)):
    
     chat = ChatOpenAI()
     messages = [
-        SystemMessage(content="简单回答，使用中文"),
+        SystemMessage(content="简单回答，使用中文回复"),
         HumanMessage(content=prompt)
     ]
     res = chat(messages)
