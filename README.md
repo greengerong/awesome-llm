@@ -26,4 +26,5 @@ LLM awesome sample and prompts.
 * [codellama/CodeLlama-34b-Instruct-hf](https://labs.perplexity.ai/?utm_content=first_codellama&s=u&utm_source=twitter&utm_campaign=labs)
 * [WizardCoder-Python-34B-V1.0(from codellama)](http://47.103.63.15:50085/)
 * [Fooocus(AI绘图)](https://colab.research.google.com/drive/1Kops8cmwAXBLpU2WyKTIjbo_wnyNGC6q)
+* [01AI-Yi-6B)](https://01.ai/)
 
