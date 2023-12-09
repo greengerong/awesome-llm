@@ -23,8 +23,8 @@ model.generation_config = GenerationConfig.from_pretrained(model_name, trust_rem
 
 # demo 1
 query = tokenizer.from_list_format([
-    {'image': './assets/VL-平板.png'},
-    {'text': '识别图片中商品名称以及对应价格，按照JSON格式(包含item、price属性)输出。'},
+    {'image': 'https://raw.githubusercontent.com/greengerong/awesome-llm/main/assets/VL-冰箱.png'},
+    {'text': '识别图片中商品名称以及对应商品价格，按照JSON格式(商品名称、商品价格2个属性)输出。'},
 ])
 response, history = model.chat(tokenizer, query=query, history=None)
 print(response)
@@ -33,8 +33,8 @@ print('---------------')
 
 # demo 2
 query = tokenizer.from_list_format([
-     {'image': './assets/VL-冰箱.png'},
-    {'text': '识别图片中商品名称以及对应价格，按照JSON格式(包含item、price属性)输出。'},
+     {'image': 'https://github.com/greengerong/awesome-llm/blob/main/assets/VL-%E5%B9%B3%E6%9D%BF.png?raw=true'},
+    {'text': '识别图片中商品名称以及对应商品价格，按照JSON格式(商品名称、商品价格2个属性)输出。'},
 ])
 response, history = model.chat(tokenizer, query=query, history=None)
 print(response)
